@@ -1,0 +1,13 @@
+package com.NewWorks.Ecommerce.Controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class ProductController {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

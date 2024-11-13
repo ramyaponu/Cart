@@ -1,0 +1,8 @@
+spring.application.name=AddToCart
+
+spring.datasource.url=jdbc:mysql://localhost:3306/RegisterUser
+spring.datasource.username=root
+spring.datasource.password=root
+spring.jpa.show-sql=true
+spring.jpa.hibernate.ddl-auto=update
+server.port=8082

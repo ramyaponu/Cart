@@ -1,0 +1,5 @@
+package com.registation.Entity;
+
+public class User {
+
+}

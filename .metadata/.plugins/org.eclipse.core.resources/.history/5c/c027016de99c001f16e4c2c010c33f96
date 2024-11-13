@@ -1,0 +1,16 @@
+package com.NewWorks.Ecommerce.Entity;
+
+import java.time.LocalDate;
+@Entity
+public class Products {
+
+	
+	String productName;
+	Integer productId;
+	String productDescription;
+	Integer rating;
+	Integer productCost;
+	LocalDate deliveryDate;
+	 String productColor;
+	
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.jdbc.PreparedStatementDemo&apos; to &apos;PreparStatementDemo&apos;&#x0D;&#x0A;- Original project: &apos;jdbc&apos;&#x0D;&#x0A;- Original element: &apos;com.jdbc.PreparedStatementDemo&apos;&#x0D;&#x0A;- Renamed element: &apos;com.jdbc.PreparStatementDemo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;PreparedStatementDemo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.jdbc{PreparedStatementDemo.java[PreparedStatementDemo" matchStrategy="1" name="PreparStatementDemo" qualified="false" references="true" similarDeclarations="false" stamp="1700065602320" textual="false" version="1.0"/>
+</session>

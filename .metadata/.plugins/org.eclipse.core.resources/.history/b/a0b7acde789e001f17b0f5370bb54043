@@ -1,0 +1,5 @@
+package com.registation.Repository;
+
+public interface UserRepository {
+
+}

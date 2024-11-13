@@ -1,0 +1,16 @@
+package com.registation;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+
+@SpringBootApplication
+@EntityScan(basePackages = {"com.NewWorks.Ecommerce.Entity", "com.cart.Entity"})
+
+public class RegistationApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(RegistationApplication.class, args);
+	}
+
+}

@@ -1,0 +1,21 @@
+package com.cart.Controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.cart.Entity.CartDto;
+import com.cart.Service.CartService;
+
+@RestController
+public class CartController {
+
+	
+	
+	@Autowired
+	CartService cartser;
+	@PostMapping("/cart")
+	public void addcart(CartDto cartdto) {
+		cartser.addToCart(cartdto);
+	}
+}

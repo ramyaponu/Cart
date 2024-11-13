@@ -1,0 +1,5 @@
+package com.NewWorks.Ecommerce.Entity;
+
+public class ProductsDto {
+
+}

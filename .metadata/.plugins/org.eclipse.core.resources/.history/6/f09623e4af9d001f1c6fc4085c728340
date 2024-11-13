@@ -1,0 +1,26 @@
+package com.NewWorks.Ecommerce.Service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+
+import com.NewWorks.Ecommerce.Dao.ProductsRepository;
+import com.NewWorks.Ecommerce.Entity.Products;
+import com.NewWorks.Ecommerce.Entity.ProductsDto;
+
+@Service
+public class ProductsService {
+
+	@Autowired
+	ProductsRepository productrepo;
+	public void SaveProducts(ProductsDto productdto) {
+		Products prod=new Products();
+		prod.setProductName(productdto.getProductName());
+		prod.setProductDescription(productdto.getProductDescription());
+		prod.setRating(productdto.getRating());
+		prod.setProductCost(productdto.getProductCost());
+		prod.setDeliveryDate(productdto.getDeliveryDate());
+		prod.setProductColor(productdto.getProductColor());
+       productrepo.save(prod);
+	}
+}
